@@ -7,6 +7,9 @@
 BOARD_VENDOR := xiaomi
 
 COMMON_PATH := device/xiaomi/sdm845-common
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Architecture
 TARGET_ARCH := arm64
