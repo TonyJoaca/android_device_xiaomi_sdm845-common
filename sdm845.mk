@@ -71,6 +71,10 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# Ambient Display
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
