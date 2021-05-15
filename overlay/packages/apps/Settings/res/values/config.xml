@@ -13,8 +13,14 @@
 
 <resources>
     <!-- Device specific doze package -->
-    <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
+    <string name="config_customDozePackage">com.custom.ambient.display/com.custom.ambient.display.DozeSettings</string>
 
+    <!-- Whether to enable doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
+
+    <!-- Whether device supports an alt. ambient display -->
+    <bool name="config_alt_ambient_display">true</bool>
+  
     <!-- Battery Health -->
     <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>

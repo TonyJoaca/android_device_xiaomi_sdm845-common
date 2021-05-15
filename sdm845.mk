@@ -76,7 +76,7 @@ PRODUCT_PACKAGES += \
 
 # Ambient Display
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    CustomDoze
 
 # Audio
 PRODUCT_PACKAGES += \
